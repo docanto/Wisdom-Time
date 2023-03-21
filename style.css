@@ -102,13 +102,17 @@ button:active {
 
  /*  Media Query: Tablet or Smaller */
  @media screen and (max-width: 1000px) {
-       .quote-container {
-        margin: auto 20px;
+    .quote-container {
+        margin: 20px 20px;
     }
 
     .quote-text {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
     }
+
+    .long-quote {
+        font-size: 1.2rem;
+     }
 
     .quote-author {
         font-size: 1rem;
@@ -116,7 +120,12 @@ button:active {
     .fa-quote-left {
         font-size: 2rem;
     }
-     body {
-         background-size: contain;
+    body {
+
+        background-image: url(./resp.jpg);
+    }
+    .quote-container {
+        background-color: rgba(255, 255, 255, 0.2);
+    }
  }
 
