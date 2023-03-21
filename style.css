@@ -116,5 +116,7 @@ button:active {
     .fa-quote-left {
         font-size: 2rem;
     }
+     body {
+         background-size: contain;
  }
 
